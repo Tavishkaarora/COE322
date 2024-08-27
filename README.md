@@ -1,2 +1,2 @@
-# HelloWorld
-COE 322 Set Up
+# COE322
+Tavishka Arora
