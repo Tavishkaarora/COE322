@@ -6,14 +6,14 @@ std::cout << "Enter a number: ";
 std::cin >> x;
  
 if (x % 3 == 0 && x % 5 == 0) { 
-std::cout << "FizzBuzz\n"; 
+ std::cout << "FizzBuzz\n"; 
 }
 
 else if (x % 3 == 0) {
- 	std::cout << "Fizz\n"; 
+ std::cout << "Fizz\n"; 
 } 
 else if (x % 5 == 0) { 
-std::cout << "Buzz\n"; 
+ std::cout << "Buzz\n"; 
 }
 return 0;
- }
+}
