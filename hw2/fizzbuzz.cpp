@@ -2,6 +2,7 @@
 // name: Tavishka Arora UTEID: ta24435 tacc user: tavishka
 #include <iostream>
 
+<<<<<<< HEAD
 //function to read user input number
 int read_number() {
   int x;
