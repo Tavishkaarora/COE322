@@ -13,12 +13,10 @@ int read_number() {
 }
 
 int main() {
-  //read the number from user input
-  int xNum = read_number();
-
+  //read the number from user input keeping the variable within the scope of the conditional
   //determine FizzBuzz, Fizz, or buzz, based on entered number
   //divisible by 3 & 5
-  if (xNum % 3 == 0 && xNum % 5 == 0) {
+  if (int xNum = read_number(); xNum % 3 == 0 && xNum % 5 == 0) {
     std::cout << "FizzBuzz\n";
   }
   //divisible by only 3
