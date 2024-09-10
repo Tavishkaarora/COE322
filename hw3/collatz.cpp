@@ -36,15 +36,12 @@ int main() {
         if (lCurrent > max_length) {
             //update max length
             max_length = lCurrent;
-            //update the starting number with max length
-            num_of_max_length = i; 
+            //update the starting number with max lengths and prints what is needed
+            num_of_max_length = i;
+	    cout << "New max starting at: " << num_of_max_length << endl;
+	    cout << "The length of this sequence is: " << max_length << endl;
         }
     }
-
-    cout << "The starting number with the longest Collatz sequence between 1 and 1000 is: "
-         << num_of_max_length << endl;
-    cout << "The length of this sequence is: " << max_length << endl;
-
     return 0;
 }
 
