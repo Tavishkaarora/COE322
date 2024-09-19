@@ -1,3 +1,4 @@
+//Tavishka Arora TA24435 tavishka
 #include <iostream>
 #include <functional>
 #include <cmath>
@@ -44,17 +45,23 @@ double newton_root(std::function<double(double)> f) {
 }
 
 int main() {
-    //this is a test case for y = x^3 - 27
-    //the answer should be 3
-    auto f = [](double x) {
-        return x * x * x - 27;
+  double inNumber;
+    
+    //user input
+    std::cout << "Enter a number: ";
+    std::cin >> inNumber;
+
+    //define the lambda function being used for root
+    auto f = [inNumber](double x) {
+        return x * x - inNumber;
     };
-    //find the root
+
+    //finds the root as per assignment instructions
     double rootAnswer = newton_root(f);
 
-    //print the results
-    std::cout << "The root, using the Newton method for roots with finite difference is: " << rootAnswer << std::endl;
-    
+    //prints the answer
+    std::cout << "The root of " << inNumber << " is " << rootAnswer << std::endl;
+
     //ends the main
     return 0;
 }

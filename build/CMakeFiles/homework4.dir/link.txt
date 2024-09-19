@@ -1,0 +1,1 @@
+/opt/intel/oneapi/compiler/2024.2/bin/icpx CMakeFiles/homework4.dir/newton_rootfd_hw.cpp.o -o homework4 

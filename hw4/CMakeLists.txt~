@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(newton VERSION 1.0)
+
+message("Using sources: newton_rootfd_hw.cpp")
+
+add_executable(newton_rootfd_hw hw4/newton_rootfd_hw.cpp)
+
+target_compile_features(newton_rootfd_hw PRIVATE cxx_std_17)
+
+install(TARGETS newton_rootfd_hw DESTINATION .)
