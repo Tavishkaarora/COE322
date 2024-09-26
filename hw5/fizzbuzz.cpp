@@ -3,11 +3,8 @@
 #include <iostream>
 
 //function to read user input number
-int read_number() {
-  int x;
-  std::cout << "Enter a number: ";
-  //stores number in variable x
-  std::cin >> x;
+
+ int read_number(int x) {
   return x;
 }
 
