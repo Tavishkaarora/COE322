@@ -39,13 +39,13 @@ int main() {
     Point p(1.0, 2.2);
     Point q(3.4, 5.6);
 
-    // Calculate halfway point
+    //get halfway point h
     Point h = p.halfway(q);
 
-    // Output the points and halfway point
+    //output the points and halfway point
     std::cout << "Point p: " << p.ret_string() << std::endl;
     std::cout << "Point q: " << q.ret_string() << std::endl;
-    std::cout << "Halfway point: " << h.ret_string() << std::endl;
+    std::cout << "Halfway point h: " << h.ret_string() << std::endl;
 
     return 0;
 }
