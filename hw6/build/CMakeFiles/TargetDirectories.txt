@@ -1,0 +1,3 @@
+/home/tavishka/COE322/hw6/build/CMakeFiles/perfNum.dir
+/home/tavishka/COE322/hw6/build/CMakeFiles/edit_cache.dir
+/home/tavishka/COE322/hw6/build/CMakeFiles/rebuild_cache.dir
